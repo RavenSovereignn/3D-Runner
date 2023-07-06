@@ -14,7 +14,9 @@ public class PlayerMovement : MonoBehaviour
     private float minimumDistance = .2f;
     [SerializeField, Range(0f,1f)]  
     private float directionThreshhold = 0.9f;
+
     public float jumpHeight;
+    private float gravity;
 
     private int lineToMove = 1;
     public float lineDistance = 4;
@@ -50,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 Vector3 direction = endTouchPos - startTouchPos;
                 Vector2 direction2d = new Vector2(direction.x , direction.y).normalized;
+                direction2d.y += gravity * Time.deltaTime;
                 SwipeDirection(direction2d);
             }
         }
@@ -60,8 +63,8 @@ public class PlayerMovement : MonoBehaviour
         if (Vector2.Dot(Vector2.up, direction) > directionThreshhold && isJumping == false)
         {
             Debug.Log("Jump");
-            isJumping = true;
-            StartCoroutine(Jump());
+            direction.y = jumpHeight;
+
 
         }
         if (Vector2.Dot(Vector2.down, direction) > directionThreshhold)
@@ -79,13 +82,6 @@ public class PlayerMovement : MonoBehaviour
             lineToMove++;
         }
     }
+    
 
-   private IEnumerator Jump()
-   {
-        rb.isKinematic = false;
-        transform.Translate(new Vector3(transform.position.x + jumpHeight, transform.position.y, transform.position.z), Space.World);
-        yield return new WaitForSeconds(1f);
-        rb.isKinematic = true;
-        isJumping = false;
-   }
 }
