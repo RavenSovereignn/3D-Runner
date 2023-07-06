@@ -22,8 +22,12 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    public void currencyAdd( int amount)
+    public void currencyAdd(int amount)
     {
         currency += amount;
+    }
+    public void currencyRemove(int amount)
+    {
+        currency -= amount;
     }
 }
