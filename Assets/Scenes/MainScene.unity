@@ -442,6 +442,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   p_Score: 0
   currency: 0
+  gold: 0
+  currencyUI: {fileID: 1098377769}
+  goldUI: {fileID: 599569767}
 --- !u!4 &269471400 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1337222003803457248, guid: fa4cf63e3590cb347951937bf8bb2152,
@@ -550,7 +553,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000015258789, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 31.1088, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &412349290
@@ -2732,7 +2735,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.26767096, y: 0.09845236}
   m_AnchorMax: {x: 0.7295823, y: 0.15456192}
-  m_AnchoredPosition: {x: 0.8679657, y: 0.35836792}
+  m_AnchoredPosition: {x: 0.86798096, y: 0.35836792}
   m_SizeDelta: {x: 2.1503983, y: 0.7166996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1674337118
@@ -3369,7 +3372,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000015258789, y: 0}
+  m_AnchoredPosition: {x: 0.000030517578, y: 0}
   m_SizeDelta: {x: 31.1088, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2023551942
