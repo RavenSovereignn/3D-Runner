@@ -38,12 +38,10 @@ public class PauseMenu : MonoBehaviour
     }
     public void ControlsBack()
     {
-        pauseMenuUI.SetActive(true);
         OptionsUI.SetActive(false);
     }
     public void Options()
     {
-        pauseMenuUI.SetActive(false);
         OptionsUI.SetActive(true);
     }
     public void MenuState()
