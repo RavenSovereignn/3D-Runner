@@ -13,6 +13,7 @@ public class PlayerStats : MonoBehaviour
     public int gold;
     public TextMeshProUGUI currencyUI;
     public TextMeshProUGUI goldUI;
+    public ScoreManager scoreManager;
 
     private void Start()
     {
@@ -23,6 +24,7 @@ public class PlayerStats : MonoBehaviour
          if(movement.moveSpeed <= 5)
         {
             Debug.Log("U lost");
+            scoreManager.EndScore();
         }
         currencyUI.text = currency.ToString();
         goldUI.text = gold.ToString();
