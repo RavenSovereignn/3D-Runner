@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
         if (Vector2.Dot(Vector2.up, direction) > directionThreshhold && isJumping == false)
         {
             Debug.Log("Jump");
-            direction.y = jumpHeight;
+           transform.position = new Vector3(transform.position.x, transform.position.y + jumpHeight, transform.position.z);
 
 
         }
