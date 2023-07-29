@@ -17,6 +17,8 @@ public class Currency : MonoBehaviour
         if(other.tag == "Player")
         {
             playerStats.currencyAdd(currencyWorth);
+            Destroy(gameObject);
         }
+        
     }
 }

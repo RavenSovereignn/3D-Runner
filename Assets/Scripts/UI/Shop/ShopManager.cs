@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using Unity.VisualScripting;
 
 public class ShopManager : MonoBehaviour
 {
@@ -42,6 +43,7 @@ public class ShopManager : MonoBehaviour
         if(playerStats.currency >= shopItem[btnNo].itemPriceCurrency)
         {
             playerStats.currencyRemove(shopItem[btnNo].itemPriceCurrency);
+            shopPanelSO[btnNo].SetActive(false);
             CheckPurchaseableCurrency();
 
 
