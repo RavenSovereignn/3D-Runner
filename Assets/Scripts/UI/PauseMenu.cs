@@ -7,6 +7,8 @@ public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenuUI;
     [SerializeField] private GameObject OptionsUI;
+    [SerializeField] private GameObject ShopUI;
+    public ShopManager shopManager;
     public bool isPausedMenu = false;
     public bool playerLost;
     
@@ -14,6 +16,7 @@ public class PauseMenu : MonoBehaviour
     void ActivateMenu()
     {
         Time.timeScale = 0;
+        Debug.Log(Time.timeScale);
         pauseMenuUI.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -21,6 +24,7 @@ public class PauseMenu : MonoBehaviour
     public void DeactivateMenu()
     {
         Time.timeScale = 1;
+        Debug.Log(Time.timeScale);
         pauseMenuUI.SetActive(false);
 
         isPausedMenu = false;
@@ -39,10 +43,16 @@ public class PauseMenu : MonoBehaviour
     public void ControlsBack()
     {
         OptionsUI.SetActive(false);
+        ShopUI.SetActive(false);
     }
     public void Options()
     {
         OptionsUI.SetActive(true);
+    }
+    public void Shop()
+    {
+        ShopUI.SetActive(true);
+        shopManager.LoadShop();
     }
     public void MenuState()
     {

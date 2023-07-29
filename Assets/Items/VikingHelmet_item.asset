@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 04f2109b2cad8e64a8756d4915664cbe, type: 3}
-  m_Name: Hat
+  m_Name: VikingHelmet_item
   m_EditorClassIdentifier: 
-  itemName: Bell Hat
-  itemInfo: Oh look I found cool hat
-  itemPriceCurrency: 10000
+  itemName: Viking Helmet
+  itemInfo: FOR FRELJURD
+  itemPriceCurrency: 1000
   itemPriceGems: 100
