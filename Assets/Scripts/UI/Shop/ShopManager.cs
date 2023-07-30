@@ -43,7 +43,10 @@ public class ShopManager : MonoBehaviour
         if(playerStats.currency >= shopItem[btnNo].itemPriceCurrency)
         {
             playerStats.currencyRemove(shopItem[btnNo].itemPriceCurrency);
-            shopPanelSO[btnNo].SetActive(false);
+            shopPanelSO[btnNo].transform.GetChild(4).gameObject.SetActive(false);
+            shopPanelSO[btnNo].transform.GetChild(5).gameObject.SetActive(true);
+
+            
             CheckPurchaseableCurrency();
 
 

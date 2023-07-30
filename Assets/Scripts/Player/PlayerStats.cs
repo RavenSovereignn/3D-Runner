@@ -28,7 +28,10 @@ public class PlayerStats : MonoBehaviour
         }
         currencyUI.text = currency.ToString();
         goldUI.text = gold.ToString();
-         
+         if(Input.GetKeyDown(KeyCode.J))
+        {
+            currencyAdd(10000);
+        }
     }
 
     public void currencyAdd(int amount)
