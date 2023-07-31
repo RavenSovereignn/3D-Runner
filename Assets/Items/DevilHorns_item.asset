@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: DevilHorns_item
   m_EditorClassIdentifier: 
   itemName: Devil Horns
-  itemInfo: Now you are evil
+  id: 1
+  itemSprite: {fileID: 21300000, guid: e631643660b6b2a4195f55567d6b76a0, type: 3}
   itemPriceCurrency: 1000
   itemPriceGems: 100

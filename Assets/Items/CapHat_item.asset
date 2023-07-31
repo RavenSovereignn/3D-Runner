@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: CapHat_item
   m_EditorClassIdentifier: 
   itemName: Cap Hat
-  itemInfo: He think dats a hat
+  id: 0
+  itemSprite: {fileID: 21300000, guid: e0b7973d011ff8546949b13c3d3445f4, type: 3}
   itemPriceCurrency: 1000
   itemPriceGems: 100

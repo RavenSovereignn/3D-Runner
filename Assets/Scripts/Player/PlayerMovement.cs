@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     private float directionThreshhold = 0.9f;
 
     public float jumpHeight;
-    private float gravity = -20;
+    private float gravity = -30;
     private int lineToMove = 1;
     public float lineDistance = 4;
     // Start is called before the first frame update

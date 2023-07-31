@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: WormScarf_item 1
   m_EditorClassIdentifier: 
   itemName: Worm Scarf
-  itemInfo: Keep you worm and well-fed
+  id: 3
+  itemSprite: {fileID: 21300000, guid: e40deed858ee01f47b550542ff602dad, type: 3}
   itemPriceCurrency: 1000
   itemPriceGems: 100

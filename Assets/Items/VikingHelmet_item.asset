@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: VikingHelmet_item
   m_EditorClassIdentifier: 
   itemName: Viking Helmet
-  itemInfo: FOR FRELJURD
+  id: 2
+  itemSprite: {fileID: 21300000, guid: 35294b55b9d0c234ea9c0872efffd0f7, type: 3}
   itemPriceCurrency: 1000
   itemPriceGems: 100
