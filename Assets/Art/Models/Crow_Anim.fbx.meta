@@ -39,42 +39,6 @@ ModelImporter:
   - first:
       74: 5539831331247536789
     second: Jump
-  - first:
-      74: 4673404662285922210
-    second: Rig|Rig|Bounce
-  - first:
-      74: 5394767244439040545
-    second: Rig|Rig|Clicked
-  - first:
-      74: -1428187561266635155
-    second: Rig|Rig|Death
-  - first:
-      74: 8931093251758338008
-    second: Rig|Rig|Fear
-  - first:
-      74: 8151293132738002727
-    second: Rig|Rig|Fly
-  - first:
-      74: -2598669472189357961
-    second: Rig|Rig|Idle
-  - first:
-      74: -5424189997191780044
-    second: Rig|Rig|Jump
-  - first:
-      74: -78520822245104280
-    second: Rig|Rig|Peck
-  - first:
-      74: -6919262914015874207
-    second: Rig|Rig|Roll
-  - first:
-      74: -3438613022137525336
-    second: Rig|Rig|Run
-  - first:
-      74: -8926857799876560005
-    second: Rig|Rig|Spin
-  - first:
-      74: 5250751747539651
-    second: Rig|Rig|Walk
   externalObjects: {}
   materials:
     materialImportMode: 2

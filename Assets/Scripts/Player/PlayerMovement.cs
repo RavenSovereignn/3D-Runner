@@ -21,15 +21,23 @@ public class PlayerMovement : MonoBehaviour
     private float gravity = -30;
     private int lineToMove = 1;
     public float lineDistance = 4;
+
+    public Animator playerAnimator;
     // Start is called before the first frame update
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        playerAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(moveSpeed > 0f)
+        {
+            playerAnimator.SetBool("isWalking", true);
+        }
+        
         
 
         //Touch start position
@@ -80,11 +88,13 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.Log("Jump");
             dir.y = jumpHeight;
+            playerAnimator.SetTrigger("Jump");
 
         }
         if (Vector2.Dot(Vector2.down, direction) > directionThreshhold)
         {
             Debug.Log("Crouch");
+            playerAnimator.SetTrigger("Roll");
         }
         if (Vector2.Dot(Vector2.left, direction) > directionThreshhold && lineToMove > 0 )
         {
