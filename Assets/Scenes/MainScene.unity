@@ -11059,7 +11059,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 626834e861ab43c4286d1fd5cc9726fb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 626834e861ab43c4286d1fd5cc9726fb,
         type: 3}
@@ -13236,6 +13236,7 @@ MonoBehaviour:
   - {fileID: 16068343}
   - {fileID: 1784977508}
   - {fileID: 1388667268}
+  buttonNumber: 0
   OwnedItems: []
 --- !u!222 &263637023998334650
 CanvasRenderer:

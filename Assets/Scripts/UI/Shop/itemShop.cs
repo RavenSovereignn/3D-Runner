@@ -14,13 +14,9 @@ public class itemShop : ScriptableObject
     public int itemPriceGems;
     public GameObject itemPrefab;
 
-    public itemSlot equipItemslot;
     //where on the Crow the item should go
     [Header("Positioning")]
     public Vector3 mPos;
     public Vector3 mRot;
     public Vector3 mScale;
-
-    
-    public enum itemSlot {Head, Neck,Chest, Back, Feet}
 }

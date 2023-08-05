@@ -68,9 +68,4 @@ public class ShopManager : MonoBehaviour
             
         }
     }
-
-    public void EquipItemButton(int buttonNumber)
-    {
-        EquipItems.Instance.Equip(shopItem[buttonNumber]);
-    }
 }
