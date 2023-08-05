@@ -22,6 +22,7 @@ public class PlayerMenuController : MonoBehaviour
     {
         playerAnimator.SetTrigger("Clicked");
         this.gameObject.GetComponent<PlayerMovement>().enabled = true;
+        this.gameObject.GetComponent<PlayerMenuController>().enabled = false;
     }
     public void RandomPeck()
     {

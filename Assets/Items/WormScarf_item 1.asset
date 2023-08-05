@@ -17,3 +17,9 @@ MonoBehaviour:
   itemSprite: {fileID: 21300000, guid: e40deed858ee01f47b550542ff602dad, type: 3}
   itemPriceCurrency: 1000
   itemPriceGems: 100
+  itemPrefab: {fileID: 574502291686100910, guid: 9d5037dd5a97283418be2a97e485af96,
+    type: 3}
+  equipItemslot: 1
+  mPos: {x: 0, y: 0, z: 0}
+  mRot: {x: 0, y: 0, z: 0}
+  mScale: {x: 0, y: 0, z: 0}

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using Unity.VisualScripting;
 
 public class ShopManager : MonoBehaviour
 {
@@ -13,6 +12,9 @@ public class ShopManager : MonoBehaviour
     public PlayerStats playerStats;
     public Button[] purchaseButton;
 
+    public int buttonNumber;
+
+    public List<itemShop> OwnedItems = new List<itemShop>();
 
     public void CheckPurchaseableCurrency()
     {
@@ -38,21 +40,22 @@ public class ShopManager : MonoBehaviour
         CheckPurchaseableCurrency();
     }
 
-    public void PurchaseItem(int btnNo)
+    public void PurchaseItem(int buttonNumber)
     {
-        if(playerStats.currency >= shopItem[btnNo].itemPriceCurrency)
+        if(playerStats.currency >= shopItem[buttonNumber].itemPriceCurrency)
         {
-            playerStats.currencyRemove(shopItem[btnNo].itemPriceCurrency);
-            shopPanelSO[btnNo].transform.GetChild(3).gameObject.SetActive(false);
-            shopPanelSO[btnNo].transform.GetChild(4).gameObject.SetActive(true);
+            playerStats.currencyRemove(shopItem[buttonNumber].itemPriceCurrency);
+            shopPanelSO[buttonNumber].transform.GetChild(3).gameObject.SetActive(false);
+            shopPanelSO[buttonNumber].transform.GetChild(4).gameObject.SetActive(true);
+            OwnedItems.Add(shopItem[buttonNumber]);
+           
 
-            
             CheckPurchaseableCurrency();
 
 
         }
     }
-    
+
     public void LoadShopPanels()
     {
         for (int i = 0; i < shopItem.Length; i++)
@@ -61,6 +64,13 @@ public class ShopManager : MonoBehaviour
             shopPanels[i].itemSpriteImage.sprite = shopItem[i].itemSprite;
             shopPanels[i].itemPriceCurrencyText.text = shopItem[i].itemPriceCurrency.ToString();
             shopPanels[i].itemPriceGemsText.text = shopItem[i].itemPriceGems.ToString();
+            shopPanels[i].ItemID = shopItem[i].id;
+            
         }
+    }
+
+    public void EquipItemButton(int buttonNumber)
+    {
+        EquipItems.Instance.Equip(shopItem[buttonNumber]);
     }
 }

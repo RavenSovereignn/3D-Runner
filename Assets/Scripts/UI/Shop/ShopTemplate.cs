@@ -10,6 +10,8 @@ public class ShopTemplate : MonoBehaviour
     public Image itemSpriteImage;
     public TMP_Text itemPriceCurrencyText;
     public TMP_Text itemPriceGemsText;
+    public int ItemID;
+    
 
     private void Awake()
     {

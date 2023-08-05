@@ -6,10 +6,21 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName = "shopMenu", menuName = "items/New Shop Item", order = 1)]
 public class itemShop : ScriptableObject
 {
+    //Base Item details
     public string itemName;
     public int id;
-    //Item description
     public Sprite itemSprite;
     public int itemPriceCurrency;
     public int itemPriceGems;
+    public GameObject itemPrefab;
+
+    public itemSlot equipItemslot;
+    //where on the Crow the item should go
+    [Header("Positioning")]
+    public Vector3 mPos;
+    public Vector3 mRot;
+    public Vector3 mScale;
+
+    
+    public enum itemSlot {Head, Neck,Chest, Back, Feet}
 }
