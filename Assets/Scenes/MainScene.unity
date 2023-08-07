@@ -287,7 +287,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -598,7 +598,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -1255,7 +1255,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -1478,7 +1478,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -1705,7 +1705,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 765813813}
+  - {fileID: 1828896808}
   - {fileID: 1526372221}
+  - {fileID: 1146962976}
+  - {fileID: 492431895}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2057,7 +2060,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -2280,7 +2283,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -2706,7 +2709,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -3054,6 +3057,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474173861}
   m_CullTransparentMesh: 1
+--- !u!1 &492431894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 492431895}
+  m_Layer: 0
+  m_Name: Feet Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &492431895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492431894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.005, z: 0.017}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 247019591}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &495083828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3084,7 +3118,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -4006,7 +4040,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -4333,6 +4367,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651209892}
   m_CullTransparentMesh: 1
+--- !u!4 &701878016 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7476598321077874577, guid: 626834e861ab43c4286d1fd5cc9726fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1809555884}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &703112250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4363,7 +4403,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -4680,7 +4720,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -4920,7 +4960,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -5143,7 +5183,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -5430,7 +5470,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -5653,7 +5693,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -6213,7 +6253,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -6673,7 +6713,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -7078,6 +7118,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa4cf63e3590cb347951937bf8bb2152, type: 3}
+--- !u!1 &1146962975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1146962976}
+  m_Layer: 0
+  m_Name: neck point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1146962976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146962975}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.037, z: 0.328}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 247019591}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1171794867
 GameObject:
   m_ObjectHideFlags: 0
@@ -7217,7 +7288,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -7440,7 +7511,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -7680,7 +7751,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -7972,7 +8043,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -8201,7 +8272,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -8424,7 +8495,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -8647,7 +8718,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -8887,7 +8958,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -9165,7 +9236,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -9534,7 +9605,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -10030,7 +10101,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -10477,7 +10548,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -10706,7 +10777,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -11252,6 +11323,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820845876}
   m_CullTransparentMesh: 1
+--- !u!1 &1828896807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1828896808}
+  m_Layer: 0
+  m_Name: headPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1828896808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828896807}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.548, z: 0.328}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 247019591}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1860855475 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3982528489134690080, guid: 1be7585461148094d8c905be4844c992,
@@ -11288,7 +11390,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -11665,7 +11767,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -11888,7 +11990,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -12111,7 +12213,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -12470,7 +12572,7 @@ PrefabInstance:
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: EquipItemButton
+      value: EquipItem
       objectReference: {fileID: 0}
     - target: {fileID: 787888334983212341, guid: b2147d68d8442d549a0276ee681822cb,
         type: 3}
@@ -12662,6 +12764,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6687871733922089702, guid: b2147d68d8442d549a0276ee681822cb,
     type: 3}
   m_PrefabInstance: {fileID: 2035952785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2096085844 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -916416580517893068, guid: 626834e861ab43c4286d1fd5cc9726fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1809555884}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &263637021955870496
 MonoBehaviour:
@@ -13034,7 +13142,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.020359727, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -22, y: 0.0008544922}
+  m_AnchoredPosition: {x: -21.999939, y: 0.0008544922}
   m_SizeDelta: {x: 22, y: -1042.7719}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &263637023017557562
@@ -13236,8 +13344,12 @@ MonoBehaviour:
   - {fileID: 16068343}
   - {fileID: 1784977508}
   - {fileID: 1388667268}
+  HatRootParent: {fileID: 2096085844}
+  NeckRootParent: {fileID: 2096085844}
+  FeetRootParent: {fileID: 701878016}
   buttonNumber: 0
   OwnedItems: []
+  EquippedItems: []
 --- !u!222 &263637023998334650
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -19,7 +19,8 @@ MonoBehaviour:
   itemPriceGems: 100
   itemPrefab: {fileID: 574502291686100910, guid: 9d5037dd5a97283418be2a97e485af96,
     type: 3}
-  equipItemslot: 1
-  mPos: {x: 0, y: 0, z: 0}
-  mRot: {x: 0, y: 0, z: 0}
-  mScale: {x: 0, y: 0, z: 0}
+  itemType: 1
+  itemInfo: 0
+  mPos: {x: 0, y: 0.00645, z: 0.00632}
+  mRot: {x: 90, y: 90, z: 0}
+  mScale: {x: 0.001, y: 0.0054, z: 0.001}

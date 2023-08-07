@@ -19,6 +19,8 @@ MonoBehaviour:
   itemPriceGems: 100
   itemPrefab: {fileID: 6774986598761537865, guid: 240d90c277ec23b47ba668344b02dce8,
     type: 3}
+  itemType: 0
+  itemInfo: 0
   mPos: {x: 0, y: 0, z: 0}
-  mRot: {x: 0, y: 0, z: 0}
-  mScale: {x: 0, y: 0, z: 0}
+  mRot: {x: 0, y: 90, z: 0}
+  mScale: {x: 0.003, y: 0.0018, z: 0.0118}
