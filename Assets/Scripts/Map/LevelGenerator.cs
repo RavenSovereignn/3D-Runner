@@ -6,7 +6,7 @@ public class LevelGenerator : MonoBehaviour
 {
     public GameObject[] tilePrefabs;
     private float spawnTilePos = 0;
-    private float tileLength = 500;
+    private float tileLength = 394;
     private int startTiles = 6;
 
     [SerializeField] private Transform Player;
@@ -25,7 +25,7 @@ public class LevelGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Player.position.z -300 > spawnTilePos - (startTiles * tileLength))
+        if(Player.position.z -500 > spawnTilePos - (startTiles * tileLength))
         {
             SpawnTile(Random.Range(0, tilePrefabs.Length));
             DeleteTile();
