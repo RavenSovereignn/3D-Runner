@@ -1724,7 +1724,7 @@ MonoBehaviour:
   moveSpeed: 20
   directionThreshhold: 0.9
   jumpHeight: 15
-  lineDistance: 4
+  lineDistance: 12
   playerAnimator: {fileID: 1526372222}
 --- !u!65 &247019594
 BoxCollider:
