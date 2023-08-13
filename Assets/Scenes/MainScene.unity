@@ -521,8 +521,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27100050}
-  m_LocalRotation: {x: 0.14720273, y: -0.000019044264, z: 0.0000028342427, w: 0.98910636}
-  m_LocalPosition: {x: -0.32, y: 8.29, z: -1.3800001}
+  m_LocalRotation: {x: 0.14720273, y: 1e-45, z: -0, w: 0.98910636}
+  m_LocalPosition: {x: -0.32056856, y: 8.29, z: -1.3800001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -991,8 +991,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62261746}
-  m_LocalRotation: {x: 0.14720273, y: -0.000019044264, z: 0.0000028342427, w: 0.98910636}
-  m_LocalPosition: {x: -0.32, y: 8.29, z: -1.3800001}
+  m_LocalRotation: {x: 0.14720273, y: 1e-45, z: -0, w: 0.98910636}
+  m_LocalPosition: {x: -0.32056856, y: 8.29, z: -1.3800001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1721,9 +1721,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba439d482a00fa498e318732c8aaf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 20
+  moveSpeed: 40
   directionThreshhold: 0.9
-  jumpHeight: 15
+  jumpHeight: 25
   lineDistance: 12
   playerAnimator: {fileID: 1526372222}
 --- !u!65 &247019594
@@ -6504,8 +6504,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 3
-  m_FollowOffset: {x: 0.0005685687, y: 10.074297, z: -12.284942}
-  m_XDamping: 1
+  m_FollowOffset: {x: 0, y: 10.074297, z: -12.284942}
+  m_XDamping: 0
   m_YDamping: 0
   m_ZDamping: 1
   m_AngularDampingMode: 0

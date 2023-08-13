@@ -55,9 +55,9 @@ public class PlayerMovement : MonoBehaviour
         }
         Vector3 targetPosition = transform.position.z * transform.forward + transform.position.y * transform.up;
         if (lineToMove == 0)
-            targetPosition += Vector3.left * lineDistance;
+            targetPosition += Vector3.left  * lineDistance;
         else if (lineToMove == 2)
-            targetPosition += Vector3.right * lineDistance;
+            targetPosition += Vector3.right  *  lineDistance;
 
         if (transform.position == targetPosition)
             return;
