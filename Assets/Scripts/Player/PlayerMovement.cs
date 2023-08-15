@@ -90,6 +90,7 @@ public class PlayerMovement : MonoBehaviour
         if (Vector2.Dot(Vector2.down, direction) > directionThreshhold)
         {
             Debug.Log("Crouch");
+            dir.y = 0;
             playerAnimator.SetTrigger("Roll");
         }
         if (Vector2.Dot(Vector2.left, direction) > directionThreshhold && lineToMove > 0 )
