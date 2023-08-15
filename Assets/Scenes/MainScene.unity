@@ -1723,7 +1723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 40
   directionThreshhold: 0.9
-  jumpHeight: 25
+  jumpHeight: 15
   lineDistance: 12
   playerAnimator: {fileID: 1526372222}
 --- !u!65 &247019594
@@ -10968,7 +10968,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 626834e861ab43c4286d1fd5cc9726fb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 626834e861ab43c4286d1fd5cc9726fb,
         type: 3}
